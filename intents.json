@@ -1,0 +1,55 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hallo",
+        "Wie geht es Ihnen",
+        "Ist jemand da?",
+        "Hallo",
+        "Schönen Tag"
+      ],
+      "responses": [
+        "Hallo, danke für die Nachfrage",
+        "Schön dich wieder zu sehen",
+        "Hallo, wie kann ich helfen?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Tschüss",
+        "Bis später",
+        "Auf Wiedersehen",
+        "Schön mit dir zu plaudern, tschüss",
+        "Bis zum nächsten Mal"
+      ],
+      "responses": [
+        "Wir sehen uns!",
+        "Einen schönen Tag noch",
+        "Tschüss! Komm bald wieder."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "car_insurance",
+      "patterns": [
+        "Hey, mein Auto ist kaputt",
+        "Ich habe mein Auto angefahren",
+        "Ich hatte einen Unfall mit meinem Auto",
+        "Ich habe gerade ein Auto gekauft",
+        "Mein Auto ist gestohlen",
+        "Hey, ich will die Autoversicherung"
+      ],
+      "responses": [],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}
